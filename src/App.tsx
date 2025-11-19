@@ -2,19 +2,19 @@
 import React from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
-import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
+import { LanguageProvider, useLanguage } from '@/src/contexts/LanguageContext.tsx';
 
 // Components
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { WhySalonsLoveCaly } from './components/WhySalonsLoveCaly';
-import { CtaBlock } from './components/CtaBlock';
-import { Testimonials } from './components/Testimonials';
-import { FeatureGrid } from './components/FeatureGrid';
-import { SpecialOffer } from './components/SpecialOffer';
-import { FAQ } from './components/FAQ';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
+import { Header } from '@/src/components/Header.tsx';
+import { Hero } from '@/src/components/Hero.tsx';
+import { WhySalonsLoveCaly } from '@/src/components/WhySalonsLoveCaly.tsx';
+import { CtaBlock } from '@/src/components/CtaBlock.tsx';
+import { Testimonials } from '@/src/components/Testimonials.tsx';
+import { FeatureGrid } from '@/src/components/FeatureGrid.tsx';
+import { SpecialOffer } from '@/src/components/SpecialOffer.tsx';
+import { FAQ } from '@/src/components/FAQ.tsx';
+import { Contact } from '@/src/components/Contact.tsx';
+import { Footer } from '@/src/components/Footer.tsx';
 
 const AppContent = () => {
   const { scrollYProgress } = useScroll();

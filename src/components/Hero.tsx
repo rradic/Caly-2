@@ -1,8 +1,8 @@
 
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
-import { PhoneMockup } from './ui/PhoneMockup';
-import { useLanguage } from '../contexts/LanguageContext';
+import { PhoneMockup } from './ui/PhoneMockup.tsx';
+import { useLanguage } from '../contexts/LanguageContext.tsx';
 
 const logos = ["EQT", "Thrive", "Linear", "Kolo", "Unsplash", "Index Ventures", "Primer", "DEPT"];
 

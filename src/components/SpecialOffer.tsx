@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
-import { PhoneMockup } from './ui/PhoneMockup';
-import { useLanguage } from '../contexts/LanguageContext';
+import { PhoneMockup } from './ui/PhoneMockup.tsx';
+import { useLanguage } from '../contexts/LanguageContext.tsx';
 
 export const SpecialOffer: React.FC = () => {
   const { t } = useLanguage();

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
+import { useLanguage } from '../contexts/LanguageContext.tsx';
 
 export const Footer: React.FC = () => {
   const { t } = useLanguage();

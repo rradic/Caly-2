@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
+import { useLanguage } from '../contexts/LanguageContext.tsx';
 
 export const CtaBlock: React.FC = () => {
   const { t } = useLanguage();
